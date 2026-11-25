@@ -1,4 +1,4 @@
-# Vydora AI 🎥🤖
+# KhyathiAI 🎥🤖
 
 **Turn YouTube videos into clear, structured knowledge.**
 
