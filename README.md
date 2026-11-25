@@ -2,7 +2,7 @@
 
 **Turn YouTube videos into clear, structured knowledge.**
 
-Vydora AI is an AI-powered YouTube video summarization project that transforms video transcripts into easy-to-understand summaries, helping users quickly grasp important concepts without watching an entire video.
+KhyathiAI is an AI-powered YouTube video summarization project that transforms video transcripts into easy-to-understand summaries, helping users quickly grasp important concepts without watching an entire video.
 
 The project is being developed in stages, starting with a Python-based summarization pipeline and expanding into a complete web application with a frontend and backend.
 
@@ -63,7 +63,7 @@ The current prototype runs in Google Colab.
 
 ## 🗺️ Project Roadmap
 
-Vydora AI is under active development.
+KhyathiAI is under active development.
 
 - [x] Initial Python notebook setup.
 - [x] YouTube transcript extraction.
@@ -85,8 +85,8 @@ The initial notebook implementation is complete through the final summary genera
 
 ## 🎯 Vision
 
-The goal of Vydora AI is to make video-based learning and information consumption faster, simpler, and more accessible by turning lengthy videos into meaningful, structured knowledge.
+The goal of KhyathiAI is to make video-based learning and information consumption faster, simpler, and more accessible by turning lengthy videos into meaningful, structured knowledge.
 
 ---
 
-**Vydora AI** | From videos to understanding. 🚀
+**KhyathiAI** | From videos to understanding. 🚀
