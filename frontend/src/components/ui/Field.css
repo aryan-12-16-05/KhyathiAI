@@ -1,0 +1,30 @@
+/* Shared form field styles */
+
+.ui-field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+}
+
+.ui-field__label {
+    color: var(--color-text-primary);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ui-field__required {
+    color: #dc2626;
+}
+
+.ui-field__error {
+    color: #dc2626;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.ui-field__helper {
+    color: var(--color-text-muted);
+    font-size: 12px;
+    line-height: 1.5;
+}

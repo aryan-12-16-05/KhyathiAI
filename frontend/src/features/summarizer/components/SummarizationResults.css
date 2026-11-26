@@ -1,0 +1,13 @@
+.summarization-results {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+@media (max-width: 640px) {
+    .summarization-results {
+        gap: 18px;
+    }
+}

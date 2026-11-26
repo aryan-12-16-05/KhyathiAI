@@ -1,0 +1,89 @@
+/* ==========================================
+   TEXTAREA BASE
+========================================== */
+
+.ui-textarea {
+    display: block;
+    width: 100%;
+    min-height: 110px;
+    padding: 12px 13px;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+
+    background: var(--color-surface);
+    color: var(--color-text-primary);
+
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 1.6;
+
+    resize: vertical;
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.ui-textarea::placeholder {
+    color: var(--color-text-muted);
+}
+
+.ui-textarea:hover:not(:disabled):not(:focus) {
+    border-color: #c5c5d5;
+}
+
+.ui-textarea:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(99, 91, 219, 0.12);
+}
+
+/* ==========================================
+   TEXTAREA SIZES
+========================================== */
+
+.ui-textarea--small {
+    min-height: 75px;
+    padding: 9px 11px;
+    font-size: 13px;
+}
+
+.ui-textarea--medium {
+    min-height: 110px;
+    padding: 12px 13px;
+}
+
+.ui-textarea--large {
+    min-height: 170px;
+    padding: 14px 15px;
+    font-size: 15px;
+}
+
+/* ==========================================
+   DISABLED STATE
+========================================== */
+
+.ui-textarea:disabled {
+    background: var(--color-surface-secondary);
+    color: var(--color-text-muted);
+    cursor: not-allowed;
+}
+
+.ui-textarea.is-disabled {
+    opacity: 0.7;
+}
+
+/* ==========================================
+   ERROR STATE
+========================================== */
+
+.ui-textarea.has-error {
+    border-color: #dc2626;
+}
+
+.ui-textarea.has-error:focus {
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}

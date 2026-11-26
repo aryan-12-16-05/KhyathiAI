@@ -1,0 +1,60 @@
+/* ==========================================
+   LOADER BASE
+========================================== */
+
+.ui-loader {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: var(--color-text-secondary);
+}
+
+.ui-loader__spinner {
+    display: inline-block;
+    flex-shrink: 0;
+
+    border: 3px solid var(--color-primary-light);
+    border-top-color: var(--color-primary);
+    border-radius: 50%;
+
+    animation: ui-loader-spin 0.75s linear infinite;
+}
+
+.ui-loader__label {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ==========================================
+   LOADER SIZES
+========================================== */
+
+.ui-loader--small .ui-loader__spinner {
+    width: 16px;
+    height: 16px;
+    border-width: 2px;
+}
+
+.ui-loader--medium .ui-loader__spinner {
+    width: 23px;
+    height: 23px;
+}
+
+.ui-loader--large .ui-loader__spinner {
+    width: 34px;
+    height: 34px;
+    border-width: 4px;
+}
+
+/* ==========================================
+   ANIMATION
+========================================== */
+
+@keyframes ui-loader-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

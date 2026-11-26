@@ -1,0 +1,66 @@
+/* ==========================================
+   CARD BASE
+========================================== */
+
+.ui-card {
+    width: 100%;
+    min-width: 0;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+/* ==========================================
+   CARD VARIANTS
+========================================== */
+
+.ui-card--default {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+}
+
+.ui-card--outlined {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.ui-card--elevated {
+    background: var(--color-surface);
+    border-color: transparent;
+    box-shadow: var(--shadow-md);
+}
+
+/* ==========================================
+   CARD PADDING
+========================================== */
+
+.ui-card--padding-none {
+    padding: 0;
+}
+
+.ui-card--padding-small {
+    padding: 12px;
+}
+
+.ui-card--padding-medium {
+    padding: 20px;
+}
+
+.ui-card--padding-large {
+    padding: 28px;
+}
+
+/* ==========================================
+   RESPONSIVE ADJUSTMENTS
+========================================== */
+
+@media (max-width: 640px) {
+    .ui-card--padding-large {
+        padding: 20px;
+    }
+}
